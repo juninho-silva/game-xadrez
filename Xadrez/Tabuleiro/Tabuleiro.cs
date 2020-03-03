@@ -12,5 +12,10 @@
             this.Colunas = colunas;
             this.pecas = new Peca[linhas, colunas];
         }
+
+        public Peca peca(int linha, int coluna)
+        {
+            return this.pecas[linha, coluna];
+        }
     }
 }
