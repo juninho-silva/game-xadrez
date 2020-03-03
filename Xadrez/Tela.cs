@@ -19,9 +19,10 @@ namespace Xadrez
                     }
                     else
                     {
-                        Console.Write($"{peca} ");
+                        Console.Write(peca + " ");
                     }
                 }
+                Console.WriteLine();
             }
         }
     }
