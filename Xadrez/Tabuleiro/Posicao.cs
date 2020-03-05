@@ -1,4 +1,4 @@
-﻿namespace tabuleiro
+﻿namespace Xadrez
 {
     public class Posicao
     {

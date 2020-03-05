@@ -1,10 +1,10 @@
-﻿using tabuleiro;
+﻿using Xadrez.Plataforma;
 
 namespace Xadrez.Pecas
 {
     public class Torre : Peca
     {
-        public Torre(Tabuleiro tabuleiro, Cor cor) : base(tabuleiro, cor)
+        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
 

@@ -1,4 +1,4 @@
-﻿using tabuleiro;
+﻿using Xadrez;
 
 namespace Xadrez.Pecas
 {

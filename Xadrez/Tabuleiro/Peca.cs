@@ -1,4 +1,6 @@
-﻿namespace tabuleiro
+﻿using Xadrez.Plataforma;
+
+namespace Xadrez
 {
     public class Peca
     {

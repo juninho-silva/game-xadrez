@@ -1,5 +1,5 @@
 ﻿using System;
-using tabuleiro;
+using Xadrez.Plataforma;
 
 namespace Xadrez
 {
@@ -11,7 +11,7 @@ namespace Xadrez
             {
                 for (int c = 0; c < tabuleiro.Colunas; c++)
                 {
-                    var peca = tabuleiro.peca(l, c);
+                    var peca = tabuleiro.Peca(l, c);
 
                     if(peca == null)
                     {
